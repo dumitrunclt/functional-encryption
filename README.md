@@ -11,3 +11,7 @@ A curated list of resources for Functional Encryption.
 
 ## Libraries
 - [Name of Library](link-to-repo) - Library and brief description
+
+## Acknowledgements
+
+This list was developed as part of the [PATTERN](https://chistera-pattern.github.io/) research project.
