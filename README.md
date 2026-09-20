@@ -28,9 +28,9 @@ Libraries specifically designed to implement core Functional Encryption (FE), Mu
   - [gofe-wasm] - WebAssembly bindings to execute GoFE functions in JavaScript/browser environments.
   - [abe-wrappers] - Language wrappers for integrating GoFE into other programming environments.
 - [**CiFEr**](https://github.com/fentec-project/CiFEr) (`C`) - Developed by the FENTEC project. A C library for Inner-Product Functional Encryption schemes.
-- [**PyMIFE**] (`Python`) - Python library dedicated to Multi-Input Functional Encryption (MIFE) prototyping and experimental evaluation.
-- [**PyFE**] (`Python`) - OpenMined library implementing Functional Encryption schemes in Python.
-- [**FHIPE**] (`C` / `Python`) - Implementation of Function-Hiding Inner Product Encryption (FHIPE) by Kevin Lewi.
+- [**PyMIFE**](https://github.com/MechFroG88/PyMIFE) (`Python`) - Python library dedicated to Multi-Input Functional Encryption (MIFE) prototyping and experimental evaluation.
+- [**PyFE**](https://github.com/OpenMined/PyFE) (`Python`) - OpenMined library implementing Functional Encryption schemes in Python.
+- [**FHIPE**](https://github.com/kevinlewi/fhipe) (`C` / `Python`) - Implementation of Function-Hiding Inner Product Encryption (FHIPE) by Kevin Lewi.
 
 ### Attribute-Based (ABE) & Identity-Based (IBE) Libraries
 
