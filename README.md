@@ -36,7 +36,7 @@ Libraries specifically designed to implement core Functional Encryption (FE), Mu
 
 Libraries and software frameworks dedicated to implementing Attribute-Based Encryption (CP-ABE, KP-ABE) and Identity-Based Encryption (IBE) schemes.
 
-- [**OpenABE**](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fgithub.com%2Fzeutro%2FOpenABE) (`C` / `C++`) - Developed by Zeutro. A suite for Attribute-Based Encryption (CP-ABE, KP-ABE) and Identity-Based Encryption.
+- [**OpenABE**](https://github.com/zeutro/OpenABE) (`C` / `C++`) - Developed by Zeutro. A suite for Attribute-Based Encryption (CP-ABE, KP-ABE) and Identity-Based Encryption.
 - [**Rabe**](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fgithub.com%2FFraunhofer-AISEC%2FRabe) (`Rust`) - Developed by Fraunhofer AISEC. A memory-safe Rust library for Attribute-Based Encryption.
 - [**Charm-Crypto**](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fgithub.com%2FJHUISI%2Fcharm) (`Python`) - Developed by JHU Security and Crypto Lab. Framework for rapid prototyping of advanced cryptosystems including ABE, IBE, and commitment schemes.
 
