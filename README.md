@@ -44,13 +44,13 @@ Libraries and software frameworks dedicated to implementing Attribute-Based Encr
 
 Software implementations specifically optimized to deploy Functional Encryption on resource-constrained devices, embedded systems, and ARM Cortex microcontrollers.
 
-- [**sumFE / sumFE v2**](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fgithub.com%2Fiammrgenie%2FsumFE) (`C` / `Embedded`) - Lightweight Functional Encryption implementation optimized for IoT and resource-constrained microcontrollers.
+- **sumFE / sumFE v2** (`C` / `Embedded`) - Lightweight Functional Encryption implementation optimized for IoT and resource-constrained microcontrollers.
 
 ### Hardware-Assisted & Specialized Implementations
 
 Frameworks leveraging specialized secure hardware enclaves to evaluate arbitrary functions over encrypted data.
 
-- [**Iron**](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fgithub.com%2Ffisch%2Firon) (`C` / `C++`) - Functional Encryption using Intel SGX hardware enclaves to support arbitrary functions efficiently via isolated execution.
+- **Iron** (`C` / `C++`) - Functional Encryption using Intel SGX hardware enclaves to support arbitrary functions efficiently via isolated execution.
 
 ### General Cryptographic & Math Libraries
 
