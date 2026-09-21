@@ -74,7 +74,7 @@ Academic research papers and technical specifications that explicitly introduce,
 * **Lightweight FE for IoT (sumFE)**
   - Frimpong et al., *"Need for Speed: Leveraging the Power of Functional Encryption for Resource-Constrained Devices"*, IoTBD 2024\. — *Underlies the sumFE library.*
 * **Inner-Product Functional Encryption Foundations**
-  - Abdalla et al., *"Simple Functional Encryption Schemes for Inner Products"*, CRYPTO 2015\. [ePrint 2015/017](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Feprint.iacr.org%2F2015%2F017) — *Foundational paper for IPFE implemented across GoFE, CiFEr, and dmcfe.*
+  - Abdalla et al., *"Simple Functional Encryption Schemes for Inner Products"*, CRYPTO 2015\. [ePrint 2015/017](https://eprint.iacr.org/2015/017) — *Foundational paper for IPFE implemented across GoFE, CiFEr, and dmcfe.*
 * **FE Libraries for Machine Learning &amp; Survey**
   - Panzade et al., *"Privacy-Preserving Machine Learning Using Functional Encryption: Opportunities and Challenges"*, IEEE Internet of Things Journal, 2023\. — *Analyzes performance and utility of FLINT, PBC, GoFE, and PyFE for PPML.*
 
