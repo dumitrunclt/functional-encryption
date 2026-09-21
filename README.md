@@ -70,7 +70,7 @@ Academic research papers and technical specifications that explicitly introduce,
 * **GoFE &amp; FENTEC Framework**
   - FENTEC Consortium, *"Functional ENcryption TEChnologies (FENTEC)"*, EU H2020 Project. [fentec.eu](https://fentec.eu/) — *Underlies GoFE and CiFEr.*
 * **Intel SGX Hardware-Assisted FE (Iron)**
-  - Fisch et al., *"Iron: Functional Encryption using Intel SGX"*, ACM CCS 2017\. [ACM DL](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fdl.acm.org%2Fdoi%2F10.1145%2F3133956.3134012) — *Underlies the Iron enclave framework.*
+  - Fisch et al., *"Iron: Functional Encryption using Intel SGX"*, ACM CCS 2017\. [ACM DL](https://dl.acm.org/doi/10.1145/3133956.3134106) — *Underlies the Iron enclave framework.*
 * **Lightweight FE for IoT (sumFE)**
   - Frimpong et al., *"Need for Speed: Leveraging the Power of Functional Encryption for Resource-Constrained Devices"*, IoTBD 2024\. — *Underlies the sumFE library.*
 * **Inner-Product Functional Encryption Foundations**
