@@ -66,7 +66,7 @@ Underlying mathematical and pairing libraries that do not implement FE natively 
 Academic research papers and technical specifications that explicitly introduce, underpin, or evaluate the specific software libraries and implementations listed in this repository.
 
 * **Decentralized Multi-Client Functional Encryption (DMCFE)** 
-  - Chotard et al., *"Decentralized Multi-Client Functional Encryption for Inner Product"*, ASIACRYPT 2018\. [ePrint 2018/699](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Feprint.iacr.org%2F2018%2F699) — *Underlies the Cosmian DMCFE implementation.*
+  - Chotard et al., *"Decentralized Multi-Client Functional Encryption for Inner Product"*, ASIACRYPT 2018\. [ePrint 2018/699](https://eprint.iacr.org/2018/699) — *Underlies the Cosmian DMCFE implementation.*
 * **GoFE &amp; FENTEC Framework**
   - FENTEC Consortium, *"Functional ENcryption TEChnologies (FENTEC)"*, EU H2020 Project. [fentec.eu](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Ffentec.eu%2F) — *Underlies GoFE and CiFEr.*
 * **Intel SGX Hardware-Assisted FE (Iron)**
