@@ -68,7 +68,7 @@ Academic research papers and technical specifications that explicitly introduce,
 * **Decentralized Multi-Client Functional Encryption (DMCFE)** 
   - Chotard et al., *"Decentralized Multi-Client Functional Encryption for Inner Product"*, ASIACRYPT 2018\. [ePrint 2018/699](https://eprint.iacr.org/2018/699) — *Underlies the Cosmian DMCFE implementation.*
 * **GoFE &amp; FENTEC Framework**
-  - FENTEC Consortium, *"Functional ENcryption TEChnologies (FENTEC)"*, EU H2020 Project. [fentec.eu](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Ffentec.eu%2F) — *Underlies GoFE and CiFEr.*
+  - FENTEC Consortium, *"Functional ENcryption TEChnologies (FENTEC)"*, EU H2020 Project. [fentec.eu](https://fentec.eu/) — *Underlies GoFE and CiFEr.*
 * **Intel SGX Hardware-Assisted FE (Iron)**
   - Fisch et al., *"Iron: Functional Encryption using Intel SGX"*, ACM CCS 2017\. [ACM DL](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fdl.acm.org%2Fdoi%2F10.1145%2F3133956.3134012) — *Underlies the Iron enclave framework.*
 * **Lightweight FE for IoT (sumFE)**
