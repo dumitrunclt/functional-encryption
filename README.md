@@ -31,6 +31,7 @@ Libraries specifically designed to implement core Functional Encryption (FE), Mu
 - [**PyMIFE**](https://github.com/MechFroG88/PyMIFE) (`Python`) - Python library dedicated to Multi-Input Functional Encryption (MIFE) prototyping and experimental evaluation.
 - [**PyFE**](https://github.com/OpenMined/PyFE) (`Python`) - OpenMined library implementing Functional Encryption schemes in Python.
 - [**FHIPE**](https://github.com/kevinlewi/fhipe) (`C` / `Python`) - Implementation of Function-Hiding Inner Product Encryption (FHIPE) by Kevin Lewi.
+- [**OpenFHE**](https://github.com/openfheorg/openfhe-development) (`C++`) – Open-source lattice cryptography framework that includes implementations for lattice-based Inner-Product Functional Encryption (IPFE) schemes.
 
 ### Attribute-Based (ABE) & Identity-Based (IBE) Libraries
 
@@ -58,24 +59,28 @@ Underlying mathematical and pairing libraries that do not implement FE natively 
 
 - [**FLINT (Fast Library for Number Theory)**](https://flintlib.org/) (`C`) 
   - **Description:** Highly optimized C library for number theory, providing efficient algorithms for polynomial arithmetic, matrix operations, finite field arithmetic, and multiprecision integer computations.
-- [**PBC (Pairing-Based Cryptography)**](https://crypto.stanford.edu/pbc/) (C)
+- [**PBC (Pairing-Based Cryptography)**](https://crypto.stanford.edu/pbc/) (`C`)
   - **Description:** C library built on top of GMP that provides abstract mathematical operations for bilinear pairings over elliptic curves, forming the core algebraic primitive required for pairing-based FE, IBE, and ABE schemes.
+- [**arkworks (ark-algebra)**](https://github.com/arkworks-rs/algebra) (`Rust`)
+   - **Description:** Memory-safe Rust ecosystem providing pairing-friendly elliptic curves (e.g., BLS12-381, BN254) that power modern Rust FE libraries like `dmcfe`.
+- [**mcl**](https://github.com/herumi/mcl) (`C` / `C++`) – High-performance pairing library for BLS12-381 and BN254 curves, frequently used as a fast backend for pairing-based functional keys.
+- [**RELIC**](https://github.com/relic-toolkit/relic) (`C` / `C++`) – A flexible, high-performance cryptographic toolkit supporting pairing-friendly curves, elliptic curve cryptography, and finite field arithmetic across server and embedded architectures.
 
 ## Foundational Papers for Implementations
 
 Academic research papers and technical specifications that explicitly introduce, underpin, or evaluate the specific software libraries and implementations listed in this repository.
 
-* **Decentralized Multi-Client Functional Encryption (DMCFE)** 
+- **Decentralized Multi-Client Functional Encryption (DMCFE)** 
   - Chotard et al., *"Decentralized Multi-Client Functional Encryption for Inner Product"*, ASIACRYPT 2018\. [ePrint 2018/699](https://eprint.iacr.org/2018/699) — *Underlies the Cosmian DMCFE implementation.*
-* **GoFE &amp; FENTEC Framework**
+- **GoFE &amp; FENTEC Framework**
   - FENTEC Consortium, *"Functional ENcryption TEChnologies (FENTEC)"*, EU H2020 Project. [fentec.eu](https://fentec.eu/) — *Underlies GoFE and CiFEr.*
-* **Intel SGX Hardware-Assisted FE (Iron)**
+- **Intel SGX Hardware-Assisted FE (Iron)**
   - Fisch et al., *"Iron: Functional Encryption using Intel SGX"*, ACM CCS 2017\. [ACM DL](https://dl.acm.org/doi/10.1145/3133956.3134106) — *Underlies the Iron enclave framework.*
-* **Lightweight FE for IoT (sumFE)**
+- **Lightweight FE for IoT (sumFE)**
   - Frimpong et al., *"Need for Speed: Leveraging the Power of Functional Encryption for Resource-Constrained Devices"*, IoTBD 2024\. — *Underlies the sumFE library.*
-* **Inner-Product Functional Encryption Foundations**
+- **Inner-Product Functional Encryption Foundations**
   - Abdalla et al., *"Simple Functional Encryption Schemes for Inner Products"*, CRYPTO 2015\. [ePrint 2015/017](https://eprint.iacr.org/2015/017) — *Foundational paper for IPFE implemented across GoFE, CiFEr, and dmcfe.*
-* **FE Libraries for Machine Learning &amp; Survey**
+- **FE Libraries for Machine Learning &amp; Survey**
   - Panzade et al., *"Privacy-Preserving Machine Learning Using Functional Encryption: Opportunities and Challenges"*, IEEE Internet of Things Journal, 2023\. — *Analyzes performance and utility of FLINT, PBC, GoFE, and PyFE for PPML.*
 
 ## Related Awesome Lists
