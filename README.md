@@ -94,3 +94,4 @@ Curated repositories and community collections focusing on adjacent privacy-pres
 ## Acknowledgements
 
 This list was developed as part of the [PATTERN](https://chistera-pattern.github.io/) research project.
+This work was supported by a grant of the Ministry of Research, Innovation and Digitalization, CNCS/CCCDI - UEFISCDI, project number ERANET-CHISTERA-IV-PATTERN, within PNCDI IV. Link: https://sites.google.com/unibuc.ro/patternub/ 
