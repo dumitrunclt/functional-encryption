@@ -1,8 +1,8 @@
 #  Functional Encryption (FE) & Multi-Party Functional Encryption (MPFE)
 
-A curated list of open-source libraries, software implementations, frameworks, and foundational papers for Functional Encryption (FE), Multi-Input Functional Encryption (MIFE), Multi-Party Functional Encryption (MPFE), and Decentralized Multi-Client FE (DMCFE).
+A curated list of open-source libraries, software implementations, frameworks, and foundational papers for Functional Encryption (FE) and its generalization Multi-Party Functional Encryption (MPFE), including references to more specific notions such as Multi-Input Functional Encryption (MIFE) and Decentralized Multi-Client FE (DMCFE), but also well-known Identity-Based Encryption (IBE) and Attribute-Based Encryption (ABE).
 
-Functional Encryption (FE) generalizes public-key cryptography by allowing private key holders to evaluate specific functions over encrypted data without decrypting the full plaintext. Multi-Party Functional Encryption (MPFE) and Multi-Input FE (MIFE) extend this to multi-user environments, enabling computation over ciphertexts and keys originating from distributed sources.
+Functional Encryption (FE) generalizes public-key cryptography by allowing private key holders to evaluate specific functions over encrypted data without decrypting the full plaintext. Multi-Party Functional Encryption (MPFE) extend this to decentralized ciphertexts and keys, enabling computation over ciphertexts and keys originating from distributed sources.
 
 ## Contents
 - [Libraries](#libraries)
@@ -35,7 +35,7 @@ Libraries specifically designed to implement core Functional Encryption (FE), Mu
 
 ### Attribute-Based (ABE) & Identity-Based (IBE) Libraries
 
-Libraries and software frameworks dedicated to implementing Attribute-Based Encryption (CP-ABE, KP-ABE) and Identity-Based Encryption (IBE) schemes.
+Libraries and software frameworks dedicated to implementing Attribute-Based Encryption (CP-ABE, KP-ABE) and Identity-Based Encryption (IBE) schemes. (Note: ABE and IBE can be perceived as a particular form of FE)
 
 - [**OpenABE**](https://github.com/zeutro/OpenABE) (`C` / `C++`) - Developed by Zeutro. A suite for Attribute-Based Encryption (CP-ABE, KP-ABE) and Identity-Based Encryption.
 - [**Rabe**](https://github.com/Fraunhofer-AISEC/Rabe) (`Rust`) - Developed by Fraunhofer AISEC. A memory-safe Rust library for Attribute-Based Encryption.
