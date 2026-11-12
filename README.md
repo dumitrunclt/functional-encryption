@@ -49,9 +49,13 @@ Software implementations specifically optimized to deploy Functional Encryption 
 
 ### Hardware-Assisted & Specialized Implementations
 
-Frameworks leveraging specialized secure hardware enclaves to evaluate arbitrary functions over encrypted data.
+Frameworks leveraging specialized secure hardware accelerators or hardware enclaves to evaluate arbitrary functions over encrypted data.
 
 - **Iron** (`C` / `C++`) - Functional Encryption using Intel SGX hardware enclaves to support arbitrary functions efficiently via isolated execution.
+- [**FENTEC** Acceleration of FE-QF with Xilinx Zynq MPSoC]() - Hardware accelerator for Functional Encryption for Quadratic Functions (FE-QF) scheme introduced in the research paper: Bahadori, M., Järvinen, K., Marc, T., & Stopar, M. (2021). Speed reading in the dark: Accelerating functional encryption for quadratic functions with reprogrammable hardware. IACR Transactions on Cryptographic Hardware and Embedded Systems, 1-27. [Paper](https://tches.iacr.org/index.php/TCHES/article/view/8966/8544) 
+
+### Applications of MPFE - Libraries
+- [**FLAD-MIFE**](https://github.com/aleph-fbk/flad-mife) (`Python`) - FLAD (Federated Learning approach to DDoS Attack Detection) is an adaptive Federated Learning (FL) using MIFE, proposed in the research paper: Sorbera, E., Zanetti, F., Brandi, G., Tomasi, A., Doriguzzi-Corin, R., & Ranise, S. (2025, November). Adaptive Federated Learning with Functional Encryption: A Comparison of Classical and Quantum-safe Options. In 2025 3rd International Conference on Foundation and Large Language Models (FLLM) (pp. 1188-1195). IEEE. [Paper](https://ieeexplore.ieee.org/document/11391241/)  
 
 ### General Cryptographic & Math Libraries
 
@@ -79,9 +83,12 @@ Academic research papers and technical specifications that explicitly introduce,
 - **Lightweight FE for IoT (sumFE)**
   - Frimpong et al., *"Need for Speed: Leveraging the Power of Functional Encryption for Resource-Constrained Devices"*, IoTBD 2024\. — *Underlies the sumFE library.*
 - **Inner-Product Functional Encryption Foundations**
-  - Abdalla et al., *"Simple Functional Encryption Schemes for Inner Products"*, CRYPTO 2015\. [ePrint 2015/017](https://eprint.iacr.org/2015/017) — *Foundational paper for IPFE implemented across GoFE, CiFEr, and dmcfe.*
+  - Abdalla et al., *"Simple Functional Encryption Schemes for Inner Products"*, CRYPTO 2015\. [ePrint 2015/017](https://eprint.iacr.org/2015/017) — *Foundational paper for IPFE implemented across GoFE, CiFEr, and DMCFE.*
 - **FE Libraries for Machine Learning &amp; Survey**
   - Panzade et al., *"Privacy-Preserving Machine Learning Using Functional Encryption: Opportunities and Challenges"*, IEEE Internet of Things Journal, 2023\. — *Analyzes performance and utility of FLINT, PBC, GoFE, and PyFE for PPML.*
+- **Hardware accelerators**
+  - Bahadori et al., *"Speed reading in the dark: Accelerating functional encryption for quadratic functions with reprogrammable hardware"*, CHES 2021\. — *Hardware accelerator for Functional Encryption for Quadratic Functions (FE-QF) scheme.*
+
 
 ## Related Awesome Lists
 
